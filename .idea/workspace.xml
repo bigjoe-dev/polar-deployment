@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04873dab-24f2-4343-9342-50e1c599f848" name="Changes" comment="feat: added config-service to the compose file">
-      <change afterPath="$PROJECT_DIR$/docker/postgresql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/applications/development/Tiltfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/platform/development/services/postgresql.yml" afterDir="false" />
+    <list default="true" id="04873dab-24f2-4343-9342-50e1c599f848" name="Changes" comment="feat: added postgres config">
+      <change afterPath="$PROJECT_DIR$/docker/rabbitmq/rabbitmq.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/platform/development/create-cluster.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/platform/development/destroy-cluster.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/platform/development/services/rabbitmq.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/platform/development/services/redis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/applications/development/Tiltfile" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/applications/development/Tiltfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,20 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/platform/development" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Remote Debugger" type="Remote">
       <module name="polar-deployment" />
@@ -66,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680297938751</updated>
-      <workItem from="1680297940062" duration="11104000" />
+      <workItem from="1680297940062" duration="14094000" />
+      <workItem from="1680813278730" duration="9505000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680298011321</created>
@@ -89,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680367899329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: added postgres config">
+      <created>1680468489314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680468489314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +115,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="feat: setup docker-compose.yml for catalog-service" />
     <MESSAGE value="feat: added config-service to the compose file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added config-service to the compose file" />
+    <MESSAGE value="feat: added postgres config" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added postgres config" />
   </component>
 </project>
